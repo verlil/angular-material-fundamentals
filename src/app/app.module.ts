@@ -13,6 +13,8 @@ import { NewTrainingComponent } from './training/new-training/new-training.compo
 import { PastTrainingsComponent } from './training/past-trainings/past-trainings.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import {AppRoutingModule} from './app-routing.module';
+import {FlexLayoutModule} from '@angular/flex-layout';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import {AppRoutingModule} from './app-routing.module';
     BrowserAnimationsModule,
     LayoutModule,
     MaterialModule,
+    FlexLayoutModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
